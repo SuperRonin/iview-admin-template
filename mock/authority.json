@@ -1,0 +1,63 @@
+{
+    "systemList": [],
+    "menuList": [
+        {
+          "id": "30",
+          "text": "前端工具库",
+          "name": "PLAT30",
+          "orderNo": 3,
+          "belongMenu": ""
+        }
+    ],
+    "serverRouters": [
+          {
+            "title": "代码转换",
+            "icon": "ios-arrow-forward",
+            "name": "wx2H5",
+            "belongMenu": "",
+            "children": [
+              {
+                "title": "css转换",
+                "name": "css-trans",
+                "icon": "edit"
+              },
+              {
+                "title": "html转换",
+                "name": "html-trans",
+                "icon": "edit"
+              }
+            ]
+          },
+          {
+            "title": "文件目录列表",
+            "icon": "ios-arrow-forward",
+            "name": "filecreation",
+            "belongMenu": "",
+            "children": [
+              {
+                "title": "本地文件地址",
+                "name": "file-address",
+                "icon": "edit"
+              },
+              {
+                "title": "网络文件下载",
+                "name": "downloadfile-b",
+                "icon": "edit"
+              }
+            ]
+          },
+          {
+            "title": "骨架屏生成",
+            "icon": "ios-arrow-forward",
+            "name": "createpage",
+            "belongMenu": "",
+            "children": [
+              {
+                "title": "骨架屏生成",
+                "name": "createpageDemo1",
+                "icon": "edit"
+              }
+            ]
+          }
+    ]
+}
